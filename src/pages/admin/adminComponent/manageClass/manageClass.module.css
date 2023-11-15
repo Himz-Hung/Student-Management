@@ -1,0 +1,254 @@
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.search {
+    margin-top: 1%;
+    border-radius: 10px;
+    float: left;
+    width: 30%;
+    display: flex;
+    background-color: var(--box);
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search input {
+    color: var(--color-theme);
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px 10px;
+    border: none;
+    border-bottom: solid var(--color-theme);
+}
+.search input:focus {
+    outline: none;
+}
+.search svg {
+    color: var(--color-theme);
+    scale: 120%;
+}
+.content {
+    padding-bottom: 20px;
+    background-color: var(--box);
+    border-radius: 15px;
+    flex-direction: column;
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    margin: 10px 0;
+    color: var(--color-theme);
+}
+.userList {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.userList table {
+    border: solid 3px var(--color-theme);
+    border-top: none;
+    width: 100%;
+    height: max-content;
+}
+.userList table tr {
+    border-bottom: 3px solid var(--color-theme);
+}
+.userList table tr th {
+    padding: 10px 0;
+    text-align: center;
+    color: var(--color-theme);
+    border-right: solid 3px var(--color-theme);
+    border-bottom: solid 3px var(--color-theme);
+}
+.userList table tr td {
+    color: var(--color-theme);
+    border-right: solid 3px var(--color-theme);
+    padding: 10px 0;
+    width: 15%;
+    text-align: center;
+}
+.userList table thead {
+    box-shadow:
+        inset 0 3px 0 var(--color-theme),
+        inset 0 -3px 0 var(--color-theme);
+    background-color: #6b7199;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.userList table thead tr {
+    border: none;
+}
+.userList table thead tr th {
+    border-bottom: none;
+    color: #cacde9;
+}
+.userList table tr th:last-of-type {
+    border-right: none;
+}
+.userList table tr td:last-of-type {
+    width: 20%;
+    border-right: none;
+}
+.userList table tr:last-of-type {
+    border-bottom: none;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color-theme);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.bttn {
+    float: left;
+    background-color: #525675;
+    border: none;
+    width: 40%;
+    color: #cacde9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin-left: 7%;
+}
+.bttn:hover {
+    color: white;
+    background-image: var(--hover);
+}
+.form {
+    margin: 30px auto;
+    background-color: var(--box);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+.form form {
+    flex-wrap: wrap;
+    padding: 10px 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.field {
+    margin-bottom: 10px;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    width: 70%;
+}
+.field label {
+    text-align: end;
+    width: 35%;
+    font-weight: bold;
+    color: var(--color-theme);
+    margin-right: 10px;
+    font-size: large;
+}
+.field input {
+    outline: none;
+    color: var(--color-theme);
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px 10px;
+    padding-right: 0;
+    border: none;
+    border-bottom: solid var(--color-theme);
+}
+.field select {
+    outline: none;
+    color: var(--color-theme);
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px 10px;
+    border: none;
+    border-bottom: solid var(--color-theme);
+}
+.field select option {
+    color: black;
+}
+.submit{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.submit button {
+    background-color: #525675;
+    border: none;
+    width: 20%;
+    color: #cacde9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding: 8px 25px;
+    transition: 0.5s ease;
+}
+.submit button:hover {
+    color: white;
+    background-image: var(--hover);
+}
+.alert {
+    width: 50%;
+    background-color: #5b0e14;
+    border: solid 1px #ff0015;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: rgb(212, 9, 9);
+    padding: 5px 0;
+    animation: appear 3s infinite;
+}
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.alert h4{
+    margin: auto;
+}

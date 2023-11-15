@@ -1,0 +1,127 @@
+{
+  "data1": [
+    {
+      "src": "content4/C4-P1.png",
+      "title": "Learn Marketing from Top Instructors.",
+      "id": "1"
+    },
+    {
+      "src": "content4/C4-P2.png",
+      "title": "Front-end development is not hard as you think",
+      "id": "2"
+    },
+    {
+      "src": "content4/C4-P3.png",
+      "title": "Everything you need to know in UX",
+      "id": "3"
+    },
+    {
+      "src": "content4/C4-P4.png",
+      "title": "Learn photography with ease",
+      "id": "4"
+    },
+    {
+      "src": "content4/C4-P5.png",
+      "title": "Be a pro in data analysis",
+      "id": "5"
+    },
+    {
+      "src": "content4/C4-P6.png",
+      "title": "Ethical Harking is not hard as you think",
+      "id": "6"
+    }
+  ],
+  "data2": [
+    {
+      "src": "content5/C5-P1.png",
+      "title": "All you need in Business Strategy",
+      "id": "1"
+    },
+    {
+      "src": "content5/C5-P2.png",
+      "title": "The amazing hack in Figma prototyping",
+      "id": "2"
+    },
+    {
+      "src": "content5/C5-P3.png",
+      "title": "Introduction to basic game developement",
+      "id": "3"
+    }
+  ],
+  "data3": [
+    {
+      "src": "content3/pic 1.png",
+      "title": "Marketing",
+      "id": "1"
+    },
+    {
+      "src": "content3/pic 2.png",
+      "title": "Design",
+      "id": "2"
+    },
+    {
+      "src": "content3/pic 3.png",
+      "title": "Programming",
+      "id": "3"
+    },
+    {
+      "src": "content3/pic 4.png",
+      "title": "Cooking",
+      "id": "4"
+    },
+    {
+      "src": "content3/pic 5.png",
+      "title": "Health and Care",
+      "id": "5"
+    },
+    {
+      "src": "content3/pic 6.png",
+      "title": "Photography",
+      "id": "6"
+    }
+  ],
+  "login": [
+    {
+      "id": "AD001",
+      "username": "admin@fpt.com",
+      "password": "admin@123",
+      "role": "ADMIN"
+    },
+    {
+      "id": "AD003",
+      "username": "admin2@fpt.com",
+      "password": "admin@123",
+      "role": "ADMIN"
+    },
+    {
+      "id": "FE002",
+      "username": "teacher2@fpt.com",
+      "password": "teacher@123",
+      "role": "TEACHER"
+    },
+    {
+      "id": "FE003",
+      "username": "teacher3@fpt.com",
+      "password": "teacher@123",
+      "role": "TEACHER"
+    },
+    {
+      "id": "QE001",
+      "username": "student1@fpt.com",
+      "password": "Student123",
+      "role": "STUDENT"
+    },
+    {
+      "id": "FE808",
+      "username": "teacher4@fpt.com",
+      "password": "Teacher123",
+      "role": "TEACHER"
+    },
+    {
+      "id": "QE651",
+      "username": "student@fpt.com",
+      "password": "Student123",
+      "role": "STUDENT"
+    }
+  ]
+}

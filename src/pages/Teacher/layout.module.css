@@ -1,0 +1,32 @@
+.layout{
+    display: flex;
+    background-color: var(--cover);
+}
+.titleBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--box);
+    height: auto;
+    margin: 1% auto;
+    width: 75vw;
+    border-radius: 15px;
+    color: var(--color-theme);
+}
+.content{
+    margin: 0 auto;
+}
+
+.info{
+    display: flex;
+    width: 90%;
+   padding: 10px;
+   flex-direction: column;
+}
+
+.button{
+    width: 100px;
+   padding: 10px;
+    background: black;
+    color: white;
+}

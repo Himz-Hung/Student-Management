@@ -1,0 +1,92 @@
+.content4 {
+}
+.content4-header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content4-header p {
+    margin: auto 0;
+    color: #333333;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.content4-header .select {
+    padding: 8px 8px;
+    background: #09b451;
+    border-radius: 50px;
+    border: #09b451 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.5s ease;
+    min-width: 140px;
+    width: 10%;
+}
+.content4-header .select p {
+    color: white;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.content4-header .select:hover {
+    cursor: pointer;
+    background-color: white;
+}
+.content4-header .select:hover > p {
+    color: #09b451;
+}
+.selectCover {
+    position: relative;
+}
+.selectCover #selectColor2 {
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#selectColor {
+    opacity: 0;
+}
+.content4-header .select:hover > .selectCover > #selectColor {
+    opacity: 1;
+}
+.content4-header .select:hover > .selectCover > #selectColor2 {
+    opacity: 0;
+}
+
+@media (max-width: 780px) {
+    .content4-header .select{
+        padding: 4px 4px;
+    }
+    .content4-header p {
+        font-size: 25px;
+    }
+    .content4-header .select p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 550px) {
+    .content4-header .select{
+        padding: 2px 2px;
+    }
+    .content4-header .select{
+        min-width: 100px;
+    }
+    .content4-header p {
+        font-size: 16px;
+    }
+    .content4-header .select p {
+        font-size: 16px;
+    }
+}
+.content4-container{
+    
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}

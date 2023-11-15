@@ -1,0 +1,176 @@
+
+.content6-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+  }
+  .content6-title {
+    margin-top: 30px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .content6-title-1 {
+    color: var(--Gray-1, #333);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    word-break: break-word;
+    width: 80%;
+  }
+  .content6-text-live {
+    word-break: break-word;
+    color: var(--Gray-1, #333);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .content6-icon {
+    display: flex;
+    min-width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #dff;
+  }
+  
+  .content6-live {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .content6-content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 32px;
+    margin-top: 24px;
+  }
+  .content6-main-1-cover{
+    position: relative;
+  }
+  .content6-main-1 {
+    display: flex;
+    justify-content: start;
+    display: flex;
+    width: 30%;
+    align-items: center;
+  }
+  .content6-main-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .content6-logo-10 {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    width: 12%;
+    max-width: 129px;
+    min-width: 120px;
+    padding: 12px 9px 26px 8px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6.887px 6.887px 17.217px 6.887px;
+    background: #fff;
+    box-shadow: 0px 0px 76px 0px rgba(112, 112, 112, 0.25);
+    right: -15%;
+    bottom: 10%;
+  }
+  
+  .content6-top-icon {
+    display: flex;
+    width: 41px;
+    height: 41px;
+    padding: 7.029px 7.029px 5.857px 5.857px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35.143px;
+    background: #e1ffee;
+  }
+  
+  .content6-bot-icon {
+    width: 112px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content6-Job {
+    color: #09b451;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .content6-opportunities {
+    color: var(--Gray-1, #333);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .content6-main-1-img {
+    position: relative;
+    width: 100%;
+    border-radius: 28.93px;
+    border-bottom-right-radius: 72.32px;
+    overflow: hidden;
+  }
+  .content6-main-1-img img {
+    border-radius: 28.93px;
+    border-bottom-right-radius: 72.32px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-origin: top right; 
+    transform: scale(
+      1
+    ); 
+    transition: transform 0.3s ease;
+  }
+  
+  .content6-main-1-img:hover img {
+    transform-origin: top right; 
+    transform: scale(1.2); 
+  }
+  @media (max-width: 1240px){
+    .content6-main{
+      flex-direction: column ; 
+      align-items: center;
+      justify-content: center;
+    }
+
+    .content6-main-2{
+      width: 80vw !important;
+    }
+    .content6-main-1{
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    .content6-title-1 {
+      width: 100%;
+    }
+  }
+  @media (max-width: 500px){
+    .content6-logo-10{
+      right: 0%;
+    }
+  }
